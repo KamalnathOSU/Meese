@@ -28,9 +28,10 @@
 []
 
 [BCs/neumann]
-type=ADMatNeumannBC
+type=ADNeumannBC
 variable = u
 value=0.2
+boundary= 'top right bottom left'
 []
 
 [Executioner]
